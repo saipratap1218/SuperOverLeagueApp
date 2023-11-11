@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0f172a;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+}
+
+.image {
+  height: 30%;
+  width: 30%;
+}
+
+@media Screen and (max-width: 768px) {
+  .image {
+    height: 10%;
+    width: 10%;
+  }
+} ;
